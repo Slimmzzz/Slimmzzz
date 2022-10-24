@@ -25,9 +25,6 @@ html {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-
-    
-
     @media (max-width: 1210px){
         padding: 0 30px;
     }
@@ -36,19 +33,19 @@ html {
 .wrapper {
     display: flex;
     justify-content: space-between;
-    @media (max-width: $breakpoint_mobile){
+    @media (max-width: 999px){
         flex-wrap: wrap;
     };
 }
 
 .desktop {
-    @media (max-width: $breakpoint_mobile) {
+    @media (max-width: 999px) {
         display: none !important;
     }
 }
 
 .mobile {
-    @media (min-width: 641px) {
+    @media (min-width: 1000px) {
         display: none !important;
     }
 }

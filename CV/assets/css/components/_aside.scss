@@ -5,13 +5,22 @@
     position: sticky;
     top: 1rem;
     align-self: flex-start;
+    @media screen and (max-width: 999px) {
+        padding-top: 0;
+    }
 
     h3 {
         text-decoration: underline;
+        @media screen and (max-width: 999px) {
+            text-align: center;
+        }
     }
 
     .phone, .e-mail, .telegram {
         display: flex;
+        @media screen and (max-width: 999px) {
+            justify-content: center;
+        }
         a {
             padding-top: 7px;
             text-decoration: none;
@@ -25,7 +34,7 @@
         margin-right: 20px;
     }
 
-    @media (max-width: $breakpoint_mobile) {
+    @media (max-width: 999px) {
         width: 100%;
     }
 
