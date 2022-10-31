@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <div class="overlay"></div>
     <header class="header">
         <div class="container">
             <div class="header-inner">
@@ -112,6 +113,13 @@
                             <li data-switcher="iup-text3">Менеджмент</li>
                             <li data-switcher="iup-text4">Управление ресурсами предприятия</li>
                         </ul>
+                        <div class="sertificates">
+                            <h2 data-switcher="sertificates">Учебные сертификаты:</h2>
+                            <div class="images-wrapper">
+                                <img class="english image" src="./assets/img/english_sertificate1.jpg" alt="English sertificate">
+                                <img class="rsschool image" src="./assets/img/rsschool_sertificate1.jpg" alt="RSSchool sertificate">
+                            </div>
+                        </div>
                 </section>
 
                 <!-- Work expirience -->
@@ -211,8 +219,14 @@ overlay.addEventListener('click', () => {
             </div>
         </div>
     </footer>
+    <div class="popup">
+        <div class="close-btn">
+            <img src="./assets/img/x_icon.png" alt="">
+        </div>
+    </div>
 
     <script src="./assets/js/langswitch.js"></script>
     <script src="./assets/js/burger.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
