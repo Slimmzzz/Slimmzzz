@@ -299,16 +299,16 @@ html {
     text-align: center;
   }
 }
-.aside .phone, .aside .e-mail, .aside .telegram {
+.aside .gitlink, .aside .phone, .aside .e-mail, .aside .telegram {
   display: flex;
 }
 @media screen and (max-width: 999px) {
-  .aside .phone, .aside .e-mail, .aside .telegram {
+  .aside .gitlink, .aside .phone, .aside .e-mail, .aside .telegram {
     justify-content: center;
   }
 }
-.aside .phone a, .aside .e-mail a, .aside .telegram a {
-  padding-top: 7px;
+.aside .gitlink a, .aside .phone a, .aside .e-mail a, .aside .telegram a {
+  padding-top: 9px;
   text-decoration: none;
   color: #303034;
 }

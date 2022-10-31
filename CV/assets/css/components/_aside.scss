@@ -16,13 +16,13 @@
         }
     }
 
-    .phone, .e-mail, .telegram {
+    .gitlink, .phone, .e-mail, .telegram {
         display: flex;
         @media screen and (max-width: 999px) {
             justify-content: center;
         }
         a {
-            padding-top: 7px;
+            padding-top: 9px;
             text-decoration: none;
             color: $color_dark;
         }
