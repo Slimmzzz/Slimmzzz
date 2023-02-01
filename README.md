@@ -6,7 +6,7 @@
 
 ## Online Zoo
 
-<https://rolling-scopes-school.github.io/slimmzzz-JSFE2022Q3/online-zoo/pages/main/>
+<https://slimmzzz-online-zoo.netlify.app/pages/main/>
 
 ## Portfolio
 
