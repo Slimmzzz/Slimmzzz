@@ -15,3 +15,7 @@
 ## Shelter
 
 <https://rolling-scopes-school.github.io/slimmzzz-JSFE2022Q1/shelter/pages/main/>
+
+## Online-store
+
+<https://online-store-rstask1.netlify.app>
