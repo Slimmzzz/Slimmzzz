@@ -20,6 +20,6 @@
 
 <https://online-store-rstask1.netlify.app>
 
-## Buttle city(Tanks 1990)
+## Battle city(Tanks 1990)
 
 <https://battle-city-rss.netlify.app>
